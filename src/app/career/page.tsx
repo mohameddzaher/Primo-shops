@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Briefcase, Users, TrendingUp, Award, Clock, DollarSign, MapPin, Send, CheckCircle, Zap, ChevronRight, GraduationCap } from 'lucide-react';
 
 const CareerPage = () => {
-  const [selectedJob, setSelectedJob] = useState<number | null>(null);
+  const [selectedJob, setSelectedJob] = useState<typeof jobs[0] | null>(null);
   const [application, setApplication] = useState({
     fullName: '',
     email: '',
