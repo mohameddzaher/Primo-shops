@@ -64,7 +64,7 @@ const AboutPage = () => {
 
   const leadership = [
     { name: 'Mohamed Mghawry', role: 'CEO & Founder', experience: '15+ years in retail' },
-    { name: 'Mai El Ziny', role: 'COO', experience: 'Operations expert' },
+    { name: 'Mai El Ziny', role: 'Founder', experience: 'Operations expert' },
     { name: 'Nader Magdy', role: 'CTO', experience: 'Tech innovator' },
   ];
 
