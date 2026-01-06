@@ -45,21 +45,7 @@ const ClientsSlider = () => {
         <div className="relative overflow-hidden">
           <div className="clients-slider">
             {[...clients, ...clients].map((client, index) => (
-              <div
-                key={index}
-                className="
-                  flex-shrink-0
-                  w-[160px] sm:w-[180px]
-                  h-[90px]
-                  mr-6
-                  bg-gradient-to-br from-[#0d1229] to-[#1a2138]
-                  border border-white/10
-                  rounded-xl
-                  flex items-center justify-center
-                  hover:border-[#EA591D]/50
-                  transition-all duration-300
-                  transform-gpu
-                "
+              <div key={index} className="flex-shrink-0 w-[160px] sm:w-[180px] h-[90px] mr-6 bg-gradient-to-br from-[#0d1229] to-[#1a2138] border border-white/10 rounded-xl flex items-center justify-center hover:border-[#EA591D]/50 transition-all duration-300 transform-gpu"
               >
                 <Image
                   src={client.logo}

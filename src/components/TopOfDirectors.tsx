@@ -6,12 +6,12 @@ const directors = [
   {
     name: "Mohamed Mghawry",
     role: "CEO & Founder",
-    img: "/images/mohamed.png",
+    img: "/images/mohamedd.png",
   },
   {
     name: "Mai Elziny",
     role: "COO",
-    img: "/images/mai.png",
+    img: "/images/maii.png",
   },
   {
     name: "Nader Magdy",

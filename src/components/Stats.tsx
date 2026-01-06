@@ -155,7 +155,8 @@ const Stats = () => {
                       padding: '6px 8px'
                     }}
                     labelStyle={{ color: '#EBE9E9', fontSize: '10px' }}
-                    formatter={(value: number) => [`${value}M`, '']}
+                    formatter={(value?: number) => [`${value ?? 0}M`, '']}
+
                   />
                   <Line 
                     type="monotone" 
@@ -223,7 +224,8 @@ const Stats = () => {
                       fontSize: '11px',
                       padding: '6px 8px'
                     }}
-                    formatter={(value: number) => [`$${value}M`, 'Sales']}
+                    formatter={(value?: number) => [`$${value ?? 0}M`, 'Sales']}
+
                   />
                   <Bar 
                     dataKey="sales" 
